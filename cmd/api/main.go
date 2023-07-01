@@ -10,9 +10,10 @@ import (
 	"os"
 )
 
-const version = "1.0.0"
-
-var buildTime string
+var (
+	version   string
+	buildTime string
+)
 
 type config struct {
 	port    int
